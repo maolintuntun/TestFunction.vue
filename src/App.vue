@@ -3,6 +3,10 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <test></test>
+
+    <!-- 按钮组件的复用，一次可以new好几个按钮 -->
+    <button-counter></button-counter>&nbsp;
+    <button-counter></button-counter>&nbsp;
     <button-counter></button-counter>
   </div>
 </template>

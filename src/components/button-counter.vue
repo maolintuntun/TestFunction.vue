@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'ButtonCounter',
+  name: 'uttonCounter',
   data: function() {
     return {
       count: 0,
