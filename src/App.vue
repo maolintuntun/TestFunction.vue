@@ -3,10 +3,12 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <test></test>
+    <button-counter></button-counter>
   </div>
 </template>
 
 <script>
+import ButtonCounter from './components/button-counter.vue'
 //通过import语法，引入刚刚做好的test组件
 import HelloWorld from './components/HelloWorld.vue'
 import test from './components/test.vue'
@@ -17,6 +19,7 @@ export default {
   components: {
     HelloWorld,
     test,
+    ButtonCounter,
   },
 }
 </script>
