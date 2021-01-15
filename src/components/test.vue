@@ -34,6 +34,7 @@ export default {
 /*style是样式区域,可以声明一些样式*/
 
 /* 例如将这个h2标题的颜色设为红色的*/
+@import 'https://unpkg.com/element-ui@2.14.1/lib/theme-chalk/index.css';
 .red {
   color: #ff0000;
 }

@@ -5,6 +5,7 @@
     <test></test>
 
     <!-- 按钮组件的复用，一次可以new好几个按钮 -->
+    <!-- &nbsp；是空格的意思 -->
     <button-counter></button-counter>&nbsp;
     <button-counter></button-counter>&nbsp;
     <button-counter></button-counter>
